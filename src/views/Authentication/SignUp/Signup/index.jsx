@@ -21,9 +21,6 @@ const Signup = (props) => {
   let email = props.step.email;
 
   const checkEmail = async () => { 
-    const resEamil = await axios.post('http://3.93.228.84/api/auth')
-
-
     const res = await validateEmail({ email })
   };
 
